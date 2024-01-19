@@ -1,0 +1,17 @@
+// First, I created my database
+    CREATE DATABASE plan_event;
+
+
+// Second, I created my fisrt table which is the event table where all the events will be entered
+    CREATE TABLE enter(
+        id bigint unsigned primary key auto_increment,
+        event_name varchar(948),
+        event_date varchar(234)
+    );
+
+// Third, I created my Second table which is the trash_can table where all the events deleted from the enter table will go to
+    CREATE TABLE trash_can(
+        id int unsigned primary key auto_increment,
+        event_name varchar(255),
+        event_date varchar(255)
+    );

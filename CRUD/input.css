@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    flex-direction: column;
+}
+
+input {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1000px;
+    margin-bottom: 5px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid blue;
+
+}
+.div2 {
+    display: block;
+}
+
+.submit {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100px;
+    background-color: blue;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit:hover {
+    opacity: 0.5    ;
+}
+.back {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.back:hover{
+    background-color: blue;
+    color: white;
+}
+.title {
+    color: white;
+}
